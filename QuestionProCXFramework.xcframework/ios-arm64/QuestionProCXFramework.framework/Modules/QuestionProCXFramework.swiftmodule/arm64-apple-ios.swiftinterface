@@ -49,6 +49,10 @@ public let kSurveyFeebackExcludedFeedback: Swift.String
 public let kCoreSurveyFeedbackURL: Swift.String
 public let kErrorLogsURL: Swift.String
 public let kSDKVersion: Swift.String
+public let kInterceptCacheTTLSeconds: Swift.Double
+public let kLastFetchTimestamp: Swift.String
+public let kVisitorStatusPrefix: Swift.String
+public let kScreenVisitCountPrefix: Swift.String
 public let kPackageName: Swift.String
 public let kEnvironment: Swift.String
 public enum InterceptType : Swift.String {
@@ -207,6 +211,12 @@ public struct InterceptSurveyLaunchEventResponse : Swift.Codable {
   @_Concurrency.MainActor public static func setScreenVisitCountForInterceptId(key: Swift.String, value: Swift.Int)
   @_Concurrency.MainActor public static func getScreenVisitCountForInterceptId(key: Swift.String) -> Swift.Int
   @_Concurrency.MainActor public static func resetScreenVisitCountForInterceptId(key: Swift.String)
+  public static func setLastFetchTimestamp()
+  public static func isInterceptCacheValid() -> Swift.Bool
+  public static func setVisitorStatusForIntercept(interceptId: Swift.Int, status: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func getVisitorStatusForIntercept(interceptId: Swift.Int) -> Swift.String?
+  #endif
   @_Concurrency.MainActor public static func setVisitorUUID(key: Swift.String, value: Swift.String)
   @_Concurrency.MainActor public static func getVisitorUUID(key: Swift.String) -> Swift.String
   @objc deinit
