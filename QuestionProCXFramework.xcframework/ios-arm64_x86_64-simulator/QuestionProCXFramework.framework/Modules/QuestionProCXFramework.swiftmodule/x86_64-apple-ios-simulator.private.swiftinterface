@@ -49,10 +49,6 @@ public let kSurveyFeebackExcludedFeedback: Swift.String
 public let kCoreSurveyFeedbackURL: Swift.String
 public let kErrorLogsURL: Swift.String
 public let kSDKVersion: Swift.String
-public let kInterceptCacheTTLSeconds: Swift.Double
-public let kLastFetchTimestamp: Swift.String
-public let kVisitorStatusPrefix: Swift.String
-public let kScreenVisitCountPrefix: Swift.String
 public let kPackageName: Swift.String
 public let kEnvironment: Swift.String
 public enum InterceptType : Swift.String {
@@ -66,7 +62,7 @@ public enum InterceptType : Swift.String {
   }
 }
 public enum InterceptRuleType : Swift.String {
-  case TIME_SPENT, VIEW_COUNT, DAY, DATE, OS, COUNTRY
+  case TIME_SPENT, VIEW_COUNT, DAY, DATE
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -75,17 +71,6 @@ public enum InterceptRuleType : Swift.String {
     get
   }
 }
-public enum InterceptRuleOperand : Swift.String {
-  case EQUAL, NOT_EQUAL
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.String)
-  #endif
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public let kCurrentOS: Swift.String
 public enum InterceptCondition : Swift.String {
   case AND, OR
   #if compiler(>=5.3) && $NonescapableTypes
@@ -222,12 +207,6 @@ public struct InterceptSurveyLaunchEventResponse : Swift.Codable {
   @_Concurrency.MainActor public static func setScreenVisitCountForInterceptId(key: Swift.String, value: Swift.Int)
   @_Concurrency.MainActor public static func getScreenVisitCountForInterceptId(key: Swift.String) -> Swift.Int
   @_Concurrency.MainActor public static func resetScreenVisitCountForInterceptId(key: Swift.String)
-  public static func setLastFetchTimestamp()
-  public static func isInterceptCacheValid() -> Swift.Bool
-  public static func setVisitorStatusForIntercept(interceptId: Swift.Int, status: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func getVisitorStatusForIntercept(interceptId: Swift.Int) -> Swift.String?
-  #endif
   @_Concurrency.MainActor public static func setVisitorUUID(key: Swift.String, value: Swift.String)
   @_Concurrency.MainActor public static func getVisitorUUID(key: Swift.String) -> Swift.String
   @objc deinit
@@ -301,6 +280,8 @@ public struct InterceptSurveyLaunchEventResponse : Swift.Codable {
 }
 @_hasMissingDesignatedInitializers public class LogUtils {
   public static func enableLogging(isLogsEnabled: Swift.Bool)
+  nonisolated(unsafe) public static var enableDataMappingDebugLogs: Swift.Bool
+  public static func dataMappingLog(_ message: Swift.String)
   #if compiler(>=5.3) && $NonescapableTypes
   public static func printMessage(logTag: QuestionProCXFramework.LogTag = .LOG_INFO, message: Swift.String, httpStatus: Swift.Int = 0, path: Swift.String? = nil)
   #endif
@@ -321,8 +302,6 @@ public struct InterceptSurveyLaunchEventResponse : Swift.Codable {
   @_Concurrency.MainActor public func checkSurveyLaunchDayLogic(days: Swift.String, interceptId: Swift.Int, interceptRule: QuestionProCXFramework.Rule, completionDelegate: any QuestionProCXFramework.SurveyLaunchDelegate)
   @_Concurrency.MainActor public func getAppUserInteractionTimeInSeconds() -> Swift.Int
   @_Concurrency.MainActor public func checkSurveyLaunchDateOfMonthLogic(dates: Swift.String, interceptId: Swift.Int, interceptRule: QuestionProCXFramework.Rule, completionDelegate: any QuestionProCXFramework.SurveyLaunchDelegate)
-  @_Concurrency.MainActor public func checkSurveyLaunchOSLogic(interceptId: Swift.Int, interceptRule: QuestionProCXFramework.Rule, completionDelegate: any QuestionProCXFramework.SurveyLaunchDelegate)
-  @_Concurrency.MainActor public func checkSurveyLaunchCountryLogic(interceptId: Swift.Int, interceptRule: QuestionProCXFramework.Rule, completionDelegate: any QuestionProCXFramework.SurveyLaunchDelegate)
   @_Concurrency.MainActor @objc override dynamic public init()
   @objc deinit
 }
@@ -472,9 +451,6 @@ extension QuestionProCXFramework.InterceptType : Swift.RawRepresentable {}
 extension QuestionProCXFramework.InterceptRuleType : Swift.Equatable {}
 extension QuestionProCXFramework.InterceptRuleType : Swift.Hashable {}
 extension QuestionProCXFramework.InterceptRuleType : Swift.RawRepresentable {}
-extension QuestionProCXFramework.InterceptRuleOperand : Swift.Equatable {}
-extension QuestionProCXFramework.InterceptRuleOperand : Swift.Hashable {}
-extension QuestionProCXFramework.InterceptRuleOperand : Swift.RawRepresentable {}
 extension QuestionProCXFramework.InterceptCondition : Swift.Equatable {}
 extension QuestionProCXFramework.InterceptCondition : Swift.Hashable {}
 extension QuestionProCXFramework.InterceptCondition : Swift.RawRepresentable {}

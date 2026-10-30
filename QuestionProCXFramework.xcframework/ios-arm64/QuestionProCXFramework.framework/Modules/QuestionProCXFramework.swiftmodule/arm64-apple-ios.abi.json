@@ -1433,188 +1433,6 @@
       },
       {
         "kind": "Var",
-        "name": "kInterceptCacheTTLSeconds",
-        "printedName": "kInterceptCacheTTLSeconds",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Double",
-            "printedName": "Swift.Double",
-            "usr": "s:Sd"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:22QuestionProCXFramework25kInterceptCacheTTLSecondsSdvp",
-        "mangledName": "$s22QuestionProCXFramework25kInterceptCacheTTLSecondsSdvp",
-        "moduleName": "QuestionProCXFramework",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:22QuestionProCXFramework25kInterceptCacheTTLSecondsSdvg",
-            "mangledName": "$s22QuestionProCXFramework25kInterceptCacheTTLSecondsSdvg",
-            "moduleName": "QuestionProCXFramework",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "kLastFetchTimestamp",
-        "printedName": "kLastFetchTimestamp",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:22QuestionProCXFramework19kLastFetchTimestampSSvp",
-        "mangledName": "$s22QuestionProCXFramework19kLastFetchTimestampSSvp",
-        "moduleName": "QuestionProCXFramework",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:22QuestionProCXFramework19kLastFetchTimestampSSvg",
-            "mangledName": "$s22QuestionProCXFramework19kLastFetchTimestampSSvg",
-            "moduleName": "QuestionProCXFramework",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "kVisitorStatusPrefix",
-        "printedName": "kVisitorStatusPrefix",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:22QuestionProCXFramework20kVisitorStatusPrefixSSvp",
-        "mangledName": "$s22QuestionProCXFramework20kVisitorStatusPrefixSSvp",
-        "moduleName": "QuestionProCXFramework",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:22QuestionProCXFramework20kVisitorStatusPrefixSSvg",
-            "mangledName": "$s22QuestionProCXFramework20kVisitorStatusPrefixSSvg",
-            "moduleName": "QuestionProCXFramework",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "kScreenVisitCountPrefix",
-        "printedName": "kScreenVisitCountPrefix",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:22QuestionProCXFramework23kScreenVisitCountPrefixSSvp",
-        "mangledName": "$s22QuestionProCXFramework23kScreenVisitCountPrefixSSvp",
-        "moduleName": "QuestionProCXFramework",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:22QuestionProCXFramework23kScreenVisitCountPrefixSSvg",
-            "mangledName": "$s22QuestionProCXFramework23kScreenVisitCountPrefixSSvg",
-            "moduleName": "QuestionProCXFramework",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
         "name": "kPackageName",
         "printedName": "kPackageName",
         "children": [
@@ -2107,80 +1925,6 @@
             "moduleName": "QuestionProCXFramework"
           },
           {
-            "kind": "Var",
-            "name": "OS",
-            "printedName": "OS",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(QuestionProCXFramework.InterceptRuleType.Type) -> QuestionProCXFramework.InterceptRuleType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InterceptRuleType",
-                    "printedName": "QuestionProCXFramework.InterceptRuleType",
-                    "usr": "s:22QuestionProCXFramework17InterceptRuleTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "QuestionProCXFramework.InterceptRuleType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InterceptRuleType",
-                        "printedName": "QuestionProCXFramework.InterceptRuleType",
-                        "usr": "s:22QuestionProCXFramework17InterceptRuleTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:22QuestionProCXFramework17InterceptRuleTypeO2OSyA2CmF",
-            "mangledName": "$s22QuestionProCXFramework17InterceptRuleTypeO2OSyA2CmF",
-            "moduleName": "QuestionProCXFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "COUNTRY",
-            "printedName": "COUNTRY",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(QuestionProCXFramework.InterceptRuleType.Type) -> QuestionProCXFramework.InterceptRuleType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InterceptRuleType",
-                    "printedName": "QuestionProCXFramework.InterceptRuleType",
-                    "usr": "s:22QuestionProCXFramework17InterceptRuleTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "QuestionProCXFramework.InterceptRuleType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InterceptRuleType",
-                        "printedName": "QuestionProCXFramework.InterceptRuleType",
-                        "usr": "s:22QuestionProCXFramework17InterceptRuleTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:22QuestionProCXFramework17InterceptRuleTypeO7COUNTRYyA2CmF",
-            "mangledName": "$s22QuestionProCXFramework17InterceptRuleTypeO7COUNTRYyA2CmF",
-            "moduleName": "QuestionProCXFramework"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -2311,265 +2055,6 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "InterceptRuleOperand",
-        "printedName": "InterceptRuleOperand",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "EQUAL",
-            "printedName": "EQUAL",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(QuestionProCXFramework.InterceptRuleOperand.Type) -> QuestionProCXFramework.InterceptRuleOperand",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InterceptRuleOperand",
-                    "printedName": "QuestionProCXFramework.InterceptRuleOperand",
-                    "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "QuestionProCXFramework.InterceptRuleOperand.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InterceptRuleOperand",
-                        "printedName": "QuestionProCXFramework.InterceptRuleOperand",
-                        "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO5EQUALyA2CmF",
-            "mangledName": "$s22QuestionProCXFramework20InterceptRuleOperandO5EQUALyA2CmF",
-            "moduleName": "QuestionProCXFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "NOT_EQUAL",
-            "printedName": "NOT_EQUAL",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(QuestionProCXFramework.InterceptRuleOperand.Type) -> QuestionProCXFramework.InterceptRuleOperand",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InterceptRuleOperand",
-                    "printedName": "QuestionProCXFramework.InterceptRuleOperand",
-                    "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "QuestionProCXFramework.InterceptRuleOperand.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InterceptRuleOperand",
-                        "printedName": "QuestionProCXFramework.InterceptRuleOperand",
-                        "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO9NOT_EQUALyA2CmF",
-            "mangledName": "$s22QuestionProCXFramework20InterceptRuleOperandO9NOT_EQUALyA2CmF",
-            "moduleName": "QuestionProCXFramework"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "QuestionProCXFramework.InterceptRuleOperand?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InterceptRuleOperand",
-                    "printedName": "QuestionProCXFramework.InterceptRuleOperand",
-                    "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO8rawValueACSgSS_tcfc",
-            "mangledName": "$s22QuestionProCXFramework20InterceptRuleOperandO8rawValueACSgSS_tcfc",
-            "moduleName": "QuestionProCXFramework",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO8rawValueSSvp",
-            "mangledName": "$s22QuestionProCXFramework20InterceptRuleOperandO8rawValueSSvp",
-            "moduleName": "QuestionProCXFramework",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO8rawValueSSvg",
-                "mangledName": "$s22QuestionProCXFramework20InterceptRuleOperandO8rawValueSSvg",
-                "moduleName": "QuestionProCXFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:22QuestionProCXFramework20InterceptRuleOperandO",
-        "mangledName": "$s22QuestionProCXFramework20InterceptRuleOperandO",
-        "moduleName": "QuestionProCXFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "kCurrentOS",
-        "printedName": "kCurrentOS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:22QuestionProCXFramework10kCurrentOSSSvp",
-        "mangledName": "$s22QuestionProCXFramework10kCurrentOSSSvp",
-        "moduleName": "QuestionProCXFramework",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:22QuestionProCXFramework10kCurrentOSSSvg",
-            "mangledName": "$s22QuestionProCXFramework10kCurrentOSSSvg",
-            "moduleName": "QuestionProCXFramework",
-            "implicit": true,
-            "accessorKind": "get"
           }
         ]
       },
@@ -5732,124 +5217,6 @@
           },
           {
             "kind": "Function",
-            "name": "setLastFetchTimestamp",
-            "printedName": "setLastFetchTimestamp()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22QuestionProCXFramework10CacheUtilsC21setLastFetchTimestampyyFZ",
-            "mangledName": "$s22QuestionProCXFramework10CacheUtilsC21setLastFetchTimestampyyFZ",
-            "moduleName": "QuestionProCXFramework",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isInterceptCacheValid",
-            "printedName": "isInterceptCacheValid()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22QuestionProCXFramework10CacheUtilsC011isInterceptD5ValidSbyFZ",
-            "mangledName": "$s22QuestionProCXFramework10CacheUtilsC011isInterceptD5ValidSbyFZ",
-            "moduleName": "QuestionProCXFramework",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setVisitorStatusForIntercept",
-            "printedName": "setVisitorStatusForIntercept(interceptId:status:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22QuestionProCXFramework10CacheUtilsC28setVisitorStatusForIntercept11interceptId6statusySi_SStFZ",
-            "mangledName": "$s22QuestionProCXFramework10CacheUtilsC28setVisitorStatusForIntercept11interceptId6statusySi_SStFZ",
-            "moduleName": "QuestionProCXFramework",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getVisitorStatusForIntercept",
-            "printedName": "getVisitorStatusForIntercept(interceptId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22QuestionProCXFramework10CacheUtilsC28getVisitorStatusForIntercept11interceptIdSSSgSi_tFZ",
-            "mangledName": "$s22QuestionProCXFramework10CacheUtilsC28getVisitorStatusForIntercept11interceptIdSSSgSi_tFZ",
-            "moduleName": "QuestionProCXFramework",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setVisitorUUID",
             "printedName": "setVisitorUUID(key:value:)",
             "children": [
@@ -8837,6 +8204,136 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Var",
+            "name": "enableDataMappingDebugLogs",
+            "printedName": "enableDataMappingDebugLogs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22QuestionProCXFramework8LogUtilsC26enableDataMappingDebugLogsSbvpZ",
+            "mangledName": "$s22QuestionProCXFramework8LogUtilsC26enableDataMappingDebugLogsSbvpZ",
+            "moduleName": "QuestionProCXFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22QuestionProCXFramework8LogUtilsC26enableDataMappingDebugLogsSbvgZ",
+                "mangledName": "$s22QuestionProCXFramework8LogUtilsC26enableDataMappingDebugLogsSbvgZ",
+                "moduleName": "QuestionProCXFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22QuestionProCXFramework8LogUtilsC26enableDataMappingDebugLogsSbvsZ",
+                "mangledName": "$s22QuestionProCXFramework8LogUtilsC26enableDataMappingDebugLogsSbvsZ",
+                "moduleName": "QuestionProCXFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22QuestionProCXFramework8LogUtilsC26enableDataMappingDebugLogsSbvMZ",
+                "mangledName": "$s22QuestionProCXFramework8LogUtilsC26enableDataMappingDebugLogsSbvMZ",
+                "moduleName": "QuestionProCXFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "dataMappingLog",
+            "printedName": "dataMappingLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuestionProCXFramework8LogUtilsC011dataMappingD0yySSFZ",
+            "mangledName": "$s22QuestionProCXFramework8LogUtilsC011dataMappingD0yySSFZ",
+            "moduleName": "QuestionProCXFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Function",
             "name": "printMessage",
             "printedName": "printMessage(logTag:message:httpStatus:path:)",
@@ -9544,86 +9041,6 @@
             "declAttributes": [
               "Custom",
               "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "checkSurveyLaunchOSLogic",
-            "printedName": "checkSurveyLaunchOSLogic(interceptId:interceptRule:completionDelegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Rule",
-                "printedName": "QuestionProCXFramework.Rule",
-                "usr": "s:22QuestionProCXFramework4RuleV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SurveyLaunchDelegate",
-                "printedName": "any QuestionProCXFramework.SurveyLaunchDelegate",
-                "usr": "s:22QuestionProCXFramework20SurveyLaunchDelegateP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22QuestionProCXFramework22SurveyLaunchLogicUtilsC05checkdE7OSLogic11interceptId0J4Rule18completionDelegateySi_AA0L0VAA0deN0_ptF",
-            "mangledName": "$s22QuestionProCXFramework22SurveyLaunchLogicUtilsC05checkdE7OSLogic11interceptId0J4Rule18completionDelegateySi_AA0L0VAA0deN0_ptF",
-            "moduleName": "QuestionProCXFramework",
-            "declAttributes": [
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "checkSurveyLaunchCountryLogic",
-            "printedName": "checkSurveyLaunchCountryLogic(interceptId:interceptRule:completionDelegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Rule",
-                "printedName": "QuestionProCXFramework.Rule",
-                "usr": "s:22QuestionProCXFramework4RuleV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SurveyLaunchDelegate",
-                "printedName": "any QuestionProCXFramework.SurveyLaunchDelegate",
-                "usr": "s:22QuestionProCXFramework20SurveyLaunchDelegateP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22QuestionProCXFramework22SurveyLaunchLogicUtilsC05checkde7CountryF011interceptId0J4Rule18completionDelegateySi_AA0L0VAA0deN0_ptF",
-            "mangledName": "$s22QuestionProCXFramework22SurveyLaunchLogicUtilsC05checkde7CountryF011interceptId0J4Rule18completionDelegateySi_AA0L0VAA0deN0_ptF",
-            "moduleName": "QuestionProCXFramework",
-            "declAttributes": [
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -12433,6 +11850,39 @@
                 "moduleName": "QuestionProCXFramework"
               },
               {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "QuestionProCXFramework.TouchPoint.PLATFORM?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PLATFORM",
+                        "printedName": "QuestionProCXFramework.TouchPoint.PLATFORM",
+                        "usr": "s:22QuestionProCXFramework10TouchPointC8PLATFORMO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:22QuestionProCXFramework10TouchPointC8PLATFORMO8rawValueAESgSS_tcfc",
+                "mangledName": "$s22QuestionProCXFramework10TouchPointC8PLATFORMO8rawValueAESgSS_tcfc",
+                "moduleName": "QuestionProCXFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
                 "kind": "Var",
                 "name": "rawValue",
                 "printedName": "rawValue",
@@ -12470,39 +11920,6 @@
                     "accessorKind": "get"
                   }
                 ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "QuestionProCXFramework.TouchPoint.PLATFORM?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PLATFORM",
-                        "printedName": "QuestionProCXFramework.TouchPoint.PLATFORM",
-                        "usr": "s:22QuestionProCXFramework10TouchPointC8PLATFORMO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:22QuestionProCXFramework10TouchPointC8PLATFORMO8rawValueAESgSS_tcfc",
-                "mangledName": "$s22QuestionProCXFramework10TouchPointC8PLATFORMO8rawValueAESgSS_tcfc",
-                "moduleName": "QuestionProCXFramework",
-                "implicit": true,
-                "init_kind": "Designated"
               }
             ],
             "declKind": "Enum",
@@ -13990,36 +13407,8 @@
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Constants\/AppConstant.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2028,
-      "length": 4,
-      "value": "1800"
-    },
-    {
-      "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Constants\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2066,
-      "length": 20,
-      "value": "\"LastFetchTimestamp\""
-    },
-    {
-      "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Constants\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2179,
-      "length": 16,
-      "value": "\"VisitorStatus_\""
-    },
-    {
-      "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Constants\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2233,
-      "length": 19,
-      "value": "\"ScreenVisitCount_\""
-    },
-    {
-      "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Constants\/AppConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 3539,
+      "offset": 2967,
       "length": 4,
       "value": "12.0"
     },
@@ -14061,231 +13450,231 @@
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "BooleanLiteral",
-      "offset": 7196,
+      "offset": 6953,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "BooleanLiteral",
-      "offset": 7257,
+      "offset": 7014,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "StringLiteral",
-      "offset": 7348,
+      "offset": 7105,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "StringLiteral",
-      "offset": 7408,
+      "offset": 7165,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 32568,
+      "offset": 32886,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "FloatLiteral",
-      "offset": 32571,
+      "offset": 32889,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 32585,
+      "offset": 32903,
       "length": 2,
       "value": "51"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "FloatLiteral",
-      "offset": 32588,
+      "offset": 32906,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 32601,
+      "offset": 32919,
       "length": 3,
       "value": "128"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "FloatLiteral",
-      "offset": 32605,
+      "offset": 32923,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "FloatLiteral",
-      "offset": 32619,
+      "offset": 32937,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 32673,
+      "offset": 32991,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 32679,
+      "offset": 32997,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 32704,
+      "offset": 33022,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "StringLiteral",
-      "offset": 32947,
+      "offset": 33265,
       "length": 18,
       "value": "\"chevron.backward\""
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33025,
+      "offset": 33343,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33187,
+      "offset": 33505,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33194,
+      "offset": 33512,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33204,
+      "offset": 33522,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33216,
+      "offset": 33534,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "BooleanLiteral",
-      "offset": 33250,
+      "offset": 33568,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33348,
+      "offset": 33666,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33355,
+      "offset": 33673,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33373,
+      "offset": 33691,
       "length": 2,
       "value": "95"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33385,
+      "offset": 33703,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "StringLiteral",
-      "offset": 33447,
+      "offset": 33765,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33545,
+      "offset": 33863,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "StringLiteral",
-      "offset": 33882,
+      "offset": 34200,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 33949,
+      "offset": 34267,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 34119,
+      "offset": 34437,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 34126,
+      "offset": 34444,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 34136,
+      "offset": 34454,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Managers\/QuestionProCX.swift",
       "kind": "IntegerLiteral",
-      "offset": 34148,
+      "offset": 34466,
       "length": 2,
       "value": "20"
     },
@@ -14298,8 +13687,15 @@
     },
     {
       "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Utilities\/LogUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 455,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/prince\/StudioProjects\/questionpro\/pearl-cx\/iOS-SDK\/MobileCXFramework\/Utilities\/LogUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 407,
+      "offset": 756,
       "length": 1,
       "value": "0"
     },
