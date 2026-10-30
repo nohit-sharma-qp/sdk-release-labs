@@ -3,7 +3,7 @@
 
 ### Add the below line to your apps podfile and do install the pod.
 
-  `pod 'QuestionProCXFramework', :git => 'https://github.com/surveyanalyticscorp/ios-cx.git'`<br /><br /><br />
+  `pod 'QuestionProCXFramework', :git => 'https://github.com/nohit-sharma-qp/sdk-release-labs.git'`<br /><br /><br />
 
 
 
